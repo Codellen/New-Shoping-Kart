@@ -23,13 +23,13 @@ var check = JSON.stringify(myUser)
 if(check == "[]")
 {
     alert("User not Exist , Please Signin First")
-    window.location.href="/signup/index.html"
+    window.location.href="/signup/index"
 
 }
 else{
     if(passvalue==myUser[0].password )
 {
-window.location.href ="/shop/index.html"
+window.location.href ="/shop/index"
 }
 
 

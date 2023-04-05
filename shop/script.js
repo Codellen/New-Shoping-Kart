@@ -574,7 +574,7 @@ container.appendChild(prodFlex)
       let btnId = event.target.id;
       arr.push(btnId);
       let mykart = localStorage.setItem("myKart",JSON.stringify(arr));
-      window.location.href="/cart/index.html"
+      window.location.href="/cart/index"
     })
   })
  

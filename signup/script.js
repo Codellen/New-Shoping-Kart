@@ -41,7 +41,7 @@ if(userArray.length==0)
     }
      if(emailvalue && passvalue && confvalue && passvalue==confvalue  )
     {
-     window.location.href="/login/index.html"
+     window.location.href="/login/index"
      userArray.push(UserObject);
 
   localStorage.setItem("userArray",JSON.stringify(userArray))
@@ -78,7 +78,7 @@ var localstring = JSON.stringify(myCheck)
 if(localstring != "[]")
 {
    alert("User already Exists , PLease Login") 
-    window.location.href="/login/index.html"
+    window.location.href="/login/index"
 }
 else if(passvalue!=confvalue)
     {
@@ -113,7 +113,7 @@ console.log("trying to login", myUser[0])
     
      if(emailvalue && passvalue && confvalue && passvalue==confvalue  )
     {
-     window.location.href="/login/index.html"
+     window.location.href="/login/index"
     
     }
     
